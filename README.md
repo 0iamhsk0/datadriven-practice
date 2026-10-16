@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Where Quality Breaks](./practice/sql/where-quality-breaks) | SQL | Easy | 2026-10-16 |
 | [Weekend Warriors](./practice/sql/weekend-warriors) | SQL | Easy | 2026-10-15 |
 | [Double Vision](./practice/sql/double-vision) | SQL | Easy | 2026-10-15 |
 | [Buyers Who Never Browsed](./practice/sql/buyers-who-never-browsed) | SQL | Easy | 2026-10-15 |
