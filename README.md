@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Power Users by Session Activity](./practice/sql/power-users-by-session-activity) | SQL | Medium | 2026-10-18 |
 | [Spending by Account Status](./practice/sql/spending-by-account-status) | SQL | Medium | 2026-10-18 |
 | [Where Quality Breaks](./practice/sql/where-quality-breaks) | SQL | Easy | 2026-10-16 |
 | [Weekend Warriors](./practice/sql/weekend-warriors) | SQL | Easy | 2026-10-15 |
