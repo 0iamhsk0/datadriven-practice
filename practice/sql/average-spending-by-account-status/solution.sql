@@ -35,7 +35,7 @@ WITH user_lifetime_spend AS (
         COALESCE(SUM(t.total_amount), 0) AS lifetime_spend
     FROM users u
     INNER JOIN transactions t ON u.user_id = t.user_id
-    GROUP BY u.user_id, u.account_status
+    GROUP BY u.account_status, u.user_id
 )
 -- Step 2: Average those lifetime spends across each account status
 SELECT 
