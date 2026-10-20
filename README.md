@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Active API Tokens](./practice/sql/active-api-tokens) | SQL | Easy | 2026-10-20 |
 | [Above Category Average](./practice/sql/above-category-average) | SQL | Easy | 2026-10-20 |
 | [The Row Count Surprise](./practice/sql/the-row-count-surprise) | SQL | Easy | 2026-10-20 |
 | [Average Spending by Account Status](./practice/sql/average-spending-by-account-status) | SQL | Medium | 2026-10-20 |
