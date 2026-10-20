@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Activity Histogram](./practice/sql/activity-histogram) | SQL | Easy | 2026-10-20 |
 | [Active Users With April Transactions](./practice/sql/active-users-with-april-transactions) | SQL | Easy | 2026-10-20 |
 | [The Token Census](./practice/sql/the-token-census) | SQL | Easy | 2026-10-20 |
 | [Active Campaigns](./practice/sql/active-campaigns) | SQL | Easy | 2026-10-20 |
