@@ -11,21 +11,42 @@
 -- WHERE total_sessions > (SELECT AVG(total_sessions) FROM count_all)
 -- ORDER BY total_sessions DESC, user_id ASC;
 
--- using 2 CTE, one for counting the sessions_id, other for performing avg
+
+-- using 2 CTE, one for counting the sessions_id, other for performing avg over a single window
+-- WITH count_all as (
+--   SELECT user_id, COUNT(*) as total_sessions
+--   FROM user_sessions
+--   GROUP BY user_id
+-- ),
+-- avg_count as (
+--    SELECT 
+--      user_id,
+--      total_sessions,
+--      AVG(total_sessions::numeric) OVER() as total_avg
+--    FROM count_all 
+--  )
+
+-- SELECT user_id, total_sessions
+-- FROM avg_count
+-- WHERE total_sessions > total_avg
+-- ORDER BY total_sessions DESC, user_id ASC;
+
+
+-- using 2 CTE, then cross joining both of them
 WITH count_all as (
   SELECT user_id, COUNT(*) as total_sessions
   FROM user_sessions
   GROUP BY user_id
 ),
 avg_count as (
-   SELECT 
-     user_id,
-     total_sessions,
-     AVG(total_sessions::numeric) OVER() as total_avg
-   FROM count_all 
- )
+  SELECT AVG(total_sessions::numeric) AS total_avg
+  FROM count_all  
+)
 
-SELECT user_id, total_sessions
-FROM avg_count
-WHERE total_sessions > total_avg
-ORDER BY total_sessions DESC, user_id ASC;
+SELECT 
+  ca.user_id,
+  ca.total_sessions
+FROM count_all as ca
+CROSS JOIN avg_count as ac
+WHERE ca.total_sessions > ac.total_avg
+ORDER BY 2 DESC, 1 ASC;
