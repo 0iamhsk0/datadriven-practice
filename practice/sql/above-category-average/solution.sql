@@ -1,5 +1,9 @@
--- 1st cte to build product avg sale
-
+-- Use a CTE for calc the 
+-- 1. product avg (partition by product name)
+-- 2. category avg (partition by category
+-- since each product belongs to exactly one category
+-- we can silently drop the unmatched rows using inner join
+-- then perform product_avg > category_avg over product name
 
 WITH avgs as (
   SELECT
