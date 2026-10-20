@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Events by Month Across Years](./practice/sql/events-by-month-across-years) | SQL | Easy | 2026-10-20 |
 | [Ad Clickers](./practice/sql/ad-clickers) | SQL | Easy | 2026-10-20 |
 | [Activity Histogram](./practice/sql/activity-histogram) | SQL | Easy | 2026-10-20 |
 | [Active Users With April Transactions](./practice/sql/active-users-with-april-transactions) | SQL | Easy | 2026-10-20 |
