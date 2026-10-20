@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [30-Day Page View Counts](./practice/sql/30-day-page-view-counts) | SQL | Easy | 2026-10-20 |
 | [The Dormant Accounts](./practice/sql/the-dormant-accounts) | SQL | Easy | 2026-10-19 |
 | [The Dominant Signal](./practice/python/the-dominant-signal) | Python | Easy | 2026-10-18 |
 | [Power Users by Session Activity](./practice/sql/power-users-by-session-activity) | SQL | Medium | 2026-10-18 |
