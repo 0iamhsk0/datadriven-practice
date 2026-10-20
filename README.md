@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [User Session Roster](./practice/sql/user-session-roster) | SQL | Easy | 2026-10-20 |
 | [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-10-20 |
 | [Above Average](./practice/sql/above-average) | SQL | Easy | 2026-10-20 |
 | [30-Day Page View Counts](./practice/sql/30-day-page-view-counts) | SQL | Easy | 2026-10-20 |
