@@ -1,9 +1,9 @@
+-- using CTE to calc avg first
 -- WITH cat_avg as (
 --   SELECT AVG(price) as catalog_avg
 --   FROM products
 -- )
-
--- SELECT 
+-- SELECT
 --   p.product_name,
 --   p.category,
 --   p.price,
@@ -12,16 +12,33 @@
 -- CROSS join cat_avg as c
 -- WHERE p.price > c.catalog_avg
 -- ORDER BY p.price desc;
-  
-WITH cat_avg as (
+-- using a single window - function
+-- WITH cat_avg as (
+-- SELECT
+--   product_name,
+--   category,
+--   price,
+--   AVG(price) OVER () as catalog_avg
+-- FROM products
+-- )
+-- SELECT *
+-- FROM cat_avg
+-- WHERE price > catalog_avg
+-- ORDER BY price desc;
+-- using subquery
 SELECT
   product_name,
   category,
   price,
-  AVG(price) OVER () as catalog_avg
+  (
+    SELECT
+      AVG(price)
+    FROM products
+  ) AS catalog_avg
 FROM products
+WHERE price > (
+  SELECT
+    AVG(price)
+  FROM products
 )
-SELECT *
-FROM cat_avg
-WHERE price > catalog_avg
-ORDER BY price desc;
+ORDER BY price DESC
