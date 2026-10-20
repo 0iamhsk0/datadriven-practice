@@ -12,6 +12,8 @@
 -- CROSS join cat_avg as c
 -- WHERE p.price > c.catalog_avg
 -- ORDER BY p.price desc;
+
+
 -- using a single window - function
 -- WITH cat_avg as (
 -- SELECT
@@ -25,6 +27,8 @@
 -- FROM cat_avg
 -- WHERE price > catalog_avg
 -- ORDER BY price desc;
+
+
 -- using subquery
 SELECT
   product_name,
