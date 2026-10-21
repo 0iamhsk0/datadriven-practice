@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Against the Clock](./practice/sql/against-the-clock) | SQL | Easy | 2026-10-21 |
 | [The Opening Run](./practice/sql/the-opening-run) | SQL | Easy | 2026-10-21 |
 | [Where the Noise Lives](./practice/sql/where-the-noise-lives) | SQL | Easy | 2026-10-20 |
 | [Events by Month Across Years](./practice/sql/events-by-month-across-years) | SQL | Easy | 2026-10-20 |
