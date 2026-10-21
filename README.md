@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [Present and Accounted For](./practice/sql/present-and-accounted-for) | SQL | Easy | 2026-10-21 |
 | [Against the Clock](./practice/sql/against-the-clock) | SQL | Easy | 2026-10-21 |
 | [The Opening Run](./practice/sql/the-opening-run) | SQL | Easy | 2026-10-21 |
 | [Where the Noise Lives](./practice/sql/where-the-noise-lives) | SQL | Easy | 2026-10-20 |
