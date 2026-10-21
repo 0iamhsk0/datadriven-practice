@@ -8,6 +8,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 
 | Problem | Domain | Difficulty | Solved |
 |---|---|---|---|
+| [The Transaction Breakdown](./practice/sql/the-transaction-breakdown) | SQL | Easy | 2026-10-21 |
 | [High-Rated In-Stock Percentage](./practice/sql/high-rated-in-stock-percentage) | SQL | Easy | 2026-10-21 |
 | [Present and Accounted For](./practice/sql/present-and-accounted-for) | SQL | Easy | 2026-10-21 |
 | [Against the Clock](./practice/sql/against-the-clock) | SQL | Easy | 2026-10-21 |
