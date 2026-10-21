@@ -6,4 +6,4 @@ SELECT
 FROM ad_impressions
 GROUP BY ad_campaign
 HAVING COUNT(impression_id) > 15
-ORDER BY 4 DESC, 1
+ORDER BY 4 DESC, 1 ASC;
