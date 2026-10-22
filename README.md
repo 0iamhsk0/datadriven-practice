@@ -28,7 +28,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 | [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-10-20 |
 | [Above Average](./practice/sql/above-average) | SQL | Easy | 2026-10-20 |
 | [30-Day Page View Counts](./practice/sql/30-day-page-view-counts) | SQL | Easy | 2026-10-20 |
-| [The Dormant Accounts](./practice/sql/the-dormant-accounts) | SQL | Medium | 2026-10-19 |
+| [The Dormant Accounts](./practice/sql/the-dormant-accounts) | SQL | Easy | 2026-10-19 |
 | [The Dominant Signal](./practice/python/the-dominant-signal) | Python | Easy | 2026-10-18 |
 | [Power Users by Session Activity](./practice/sql/power-users-by-session-activity) | SQL | Medium | 2026-10-18 |
 | [Spending by Account Status](./practice/sql/spending-by-account-status) | SQL | Medium | 2026-10-18 |
