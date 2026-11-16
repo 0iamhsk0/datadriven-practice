@@ -26,7 +26,7 @@ Scored work from [DataDriven](https://datadriven.io/u/iamhsk), committed here as
 | [The Row Count Surprise](./practice/sql/the-row-count-surprise) | SQL | Easy | 2026-10-20 |
 | [Average Spending by Account Status](./practice/sql/average-spending-by-account-status) | SQL | Medium | 2026-10-20 |
 | [User Session Roster](./practice/sql/user-session-roster) | SQL | Easy | 2026-10-20 |
-| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Medium | 2026-10-20 |
+| [Above Average Interactions](./practice/sql/above-average-interactions) | SQL | Easy | 2026-10-20 |
 | [Above Average](./practice/sql/above-average) | SQL | Easy | 2026-10-20 |
 | [30-Day Page View Counts](./practice/sql/30-day-page-view-counts) | SQL | Easy | 2026-10-20 |
 | [The Dormant Accounts](./practice/sql/the-dormant-accounts) | SQL | Easy | 2026-10-19 |
